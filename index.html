@@ -1,299 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <style>
-        *{
-            margin: 0px;
-            padding: 0px;
-        }
-        #vij6{
-            position: sticky;
-            top:0px;
-        z-index:1;
-        #List a{
-        text-decoration: none
-      }
-        }
-        #sai{
-
-            border: 1px solid black;
-            height: 75px;
-            width: 100%;
-            background-color:tomato;
-            color: aliceblue;
-            display: flex;
-            justify-content:space-between;
-            align-items: center;
-            border-radius: 5px;
-            position: sticky;
-            top:50px;
-            z-index:8;
-            
-           
-        }
-        #logo{
-              
-               height: 25px;
-               width: 100px;
-               display: flex;
-               justify-content: center;
-               align-items: center;
-             
-
-
-        }
-        #logo2{
-              
-              height: 25px;
-              width: 100px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              margin-right: 30px;
-              
-
-
-       }
-       #textimg{
-       border: 2px solid black;
-       height: 600px;
-       width: 100%;
-       filter: brightness(10%);
-       
-
-       }
-       
-       #vl {
-  border-left: 6px solid white;
-  height: 100px;
-}
-#text1{
-
-    border: 1px solid white;
-    height: 80px;
-    width: 40px;
-}
-#List{
-   
-    height: 60px;
-    width: 80%;
-    color: aliceblue;
-    font-size:24px;
-    font-style:normal;
-    list-style: none;
-    
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-
-}
-input{
-    height: 24px;
-    width: 300px;
-}
-#block{
-        border: 1px solid black;
-        
-       background-repeat: no-repeat;
-        height: 600px;
-        width: 100%;
-       
-       height: 730px;
-       width: 100%;
-       display: flex;
-        justify-content:center;
-        align-items: center;
-       }
-       #block1{
-        border: 1px solid black;
-        
-       background-repeat: no-repeat;
-        height: 600px;
-        width: 100%;
-       
-       height: 730px;
-       width: 100%;
-       padding: 80px;
-       display: flex;
-        justify-content:last baseline;
-        align-items: center;
-       }
-       #block2{
-        border: 1px solid black;
-        
-       background-repeat: no-repeat;
-        height: 600px;
-        width: 100%;
-       height: 730px;
-       width: 100%;
-       display: flex;
-        justify-content:center;
-        align-items: center;
-       }
-       #block3{
-border: 1px solid black;
-height: 500px;
-width: 100%;
-background-color: tomato;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-       }
-       .blk{
-        border: 1px solid black;
-        height:400px;
-        width: 400px;
-        padding: 40px;
-        color: rgb(250, 253, 255);
-       
-
-       }
-       li{
-        list-style: none;
-       }
-       #block4{
-              border: 1px solid black;
-              height: 55px;
-              width: 100%;
-       }
-       .Img1{
-        border: 1px solid black;
-        height: 100px;
-        width: 100px;
-       }
-       .card-title{
-        color: rgb(54, 12, 122);
-       }
-       
-
-    </style>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
 </head>
+
 <body>
-    <nav id="vij6">
-        <div id="sai">
-            <div id="logo">
-             <a href=""><img src="https://aadiguruprodigy.com/wp-content/uploads/2023/06/AGP-LOGO.jpg" alt="" height="70px" width="85px"></a>
-            </div>
-            <div id="List">
-                <li> <button value="search">search</button> &nbsp;&nbsp;&nbsp;<input type="text" placeholder=" searching" ></li>
-                <li><a href="" >Home</a></li>
-                <li><a href="#block1">Aboutservices</a></li>
-                <li><a href="">Traveling</a></li>
-                <li><a href="http://127.0.0.1:5501/Saisree/index.html">Login</a></li>
-          </div>
-            <div id="logo2">
-                <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDdWMgG6H_ecfXyj-ArmqKJmX-nRMhvQFtqBxzhY4PL5d91Fe5UEcpjTmFHO2MsNHn4d8&usqp=CAU" alt="" height="70px" width="150px"></a>   
-            </div>
-        
-        </div>
+	<form action="vijay" method="post">
+		<table border="">
+			<tr>
+				<td><label>Userid:</label></td>
+				<td><input type="text" name="sid"></td>
+			</tr>
+			<tr>
+				<td><label>Userpass:</label></td>
+				<td><input type="pass" name="spass"></td>
+			</tr>
+			<tr>
+				<td><label>UserMobile:</label></td>
+				<td><input type="tel" name="sphone"></td>
+			</tr>
+			<tr>
+				<tr>
+				<td><label>UserDob:</label></td>
+				<td><input type="date" name="Dob"></td>
+			</tr>
+			<tr>
+				<td><label>UserEmaid:</label></td>
+				<td><input type="email" name="smail"></td>
+			</tr>
+			<tr>
+				<td><label>UserGender:</label></td>
+				<td>Male<input type="checkbox" name="gender" value="male">
+					Female<input type="checkbox" name="gender" value="female"></td>
+			</tr>
+			<tr>
+				<td><label>Usercountry:</label></td>
+				<td><select name="country">
+						<option>india</option>
+						<option>Austerlia</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label>Accept T&C:</label></td>
+				<td><input type="checkbox" name="checkbox" value="Accepted"></td>
+			</tr>
+			
+		</table>
+<button >Submit</button>&nbsp;&nbsp;<button>Cancel</button>
+	</form>
+	
 
-    </nav>
-    
-        <div id="block">
-       
-          <div class="card text-center">
-            <div class="card-header">
-              Saisree
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Car booking website</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-            <div class="card-footer text-muted">
-              2 days ago
-            </div>
-          </div>
-        </div>
-       </div>
-       <center><h1>About our Services</h1></center>
-    
-    <div id="block1">
-        <div class="card" style="width: 24rem; height: 40rem;">
-            <img class="card-img-top" src="https://img.freepik.com/free-photo/beautiful-young-latin-woman-driving-her-brand-new-car-showing-her-thumb-up_231208-7751.jpg?size=626&ext=jpg&ga=GA1.1.246753521.1702398558&semt=ais" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content text to build on the card title and make up the bulk of the card's text to build on the card title and make up the bulk of the card's text to build on the card title and make up the bulk of the card's.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-            </div>
-            <div class="card" style="width: 24rem; height: 40rem;">
-                <img class="card-img-top" src="https://img.freepik.com/free-vector/city-driver-concept-illustration_114360-1209.jpg?size=626&ext=jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content text to build on the card title and make up the bulk of the card's text to build on the card title and make up the bulk of the card's text to build on the card title and make up the bulk of the card's.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-                </div>
-                <div class="card" style="width: 24rem; height: 40rem;">
-                    <img class="card-img-top" src="https://img.freepik.com/free-photo/auto-business-car-sale-consumerism-people-concept_146671-14245.jpg?size=626&ext=jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content text to build on the card title and make up the bulk of the card's text to build on the card title and make up the bulk of the card's text to build on the card title and make up the bulk of the card's.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                    </div>
-                    <div class="card" style="width: 24rem; height: 40rem;">
-                        <img class="card-img-top" src="https://img.freepik.com/free-photo/young-woman-testing-car-car-showroom_1303-17732.jpg?w=740&t=st=1702399134~exp=1702399734~hmac=c69e582a6b8e6704365b8cf2d4333878f49b0c9e6e92cfc745a00cd7e98a579e" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content text to build on the card title and make up the bulk of the card's text to build on the card title and make up the bulk of the card's text to build on the card title and make up the bulk of the card's.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        </div>
-        </div>
-       <div id="block2">
-        <div class="card mb-3">
-            <img class="card-img-top" src="https://img.freepik.com/free-vector/car-rental-concept-illustration_114360-9916.jpg?w=740&t=st=1702400192~exp=1702400792~hmac=c4c0494cdb1e68d21054c88e62ede784d9bd34860d1ee9f03e9b5cb18e4166b1" alt="Card image cap" height="550px" width="400px">
-            <div class="card-body">
-              <h5 class="card-title">Life insurency Polycies</h5>
-              <p class="card-text">Maxime atque aliquam nulla quis qui, omnis assumenda id itaque odio explicabo! Natus magni corrupti officia exercitationem perferendis ab porro. Molestiae fuga tenetur est culpa assumenda qui deleniti repellendus ea.
-                Numquam impedit, a veniam quisquam sed nisi voluptatibus repellendus totam ab excepturi ratione consequatur fugit. Reiciendis fugit, error quasi pariatur excepturi, optio autem facilis unde saepe, reprehenderit aspernatur itaque quia?
-              ore minima! Et ut eveniet facere blanditiis quos distinctio non reprehenderit sit facilis porro!
-               erum expedita voluptatum corporis hic reiciendis cum. Adipisci, repellendus et. Esse obcaecati nam minima quod adipisci sit culpa saepe odio.
-                T lead-in to additional content. This content is a little bit longer This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.loream This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.loream This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.loream.loream</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-        <div id="block3">
-          <div class="blk">
-            <ul><li><h6>COMPANY</h6></li>
-            <br>
-          <li>About Us</li>
-          <li>Media Coverage</li>
-          <li>Careers</li>
-          <li>Privacy Policy</li>
-          <li>Terms & Conditions</li>
-        <li>Refunds</li></ul></div>
-          <div class="blk">
-            <ul><li><h6>SERVICES</h6></li>
-              <br>
-            <li>Local Car Rentals</li>
-            <li>Outstation Taxi</li>
-            <li>One way cabs</li>
-            <li>Corporate Car Rental</li>
-            <li>Airport Taxi</li></ul>
-        </div>
-          <div class="blk"><ul><li><h6>GET IN TOUCH</h6></li>
-            <br>
-          <li>Contact Us</li>
-          <li>Sitemap</li>
-          <li>XML Sitemap</li>
-          <li>logos</li>
-          </ul></div>
-          
-
-        </div>
-        <div id="block4">
-            <morque scroll="right" behavior="scroll">Sed aliquid magnam voluptates! Molestiae dignissimos sed velit beatae quae?</morque>
-
-        </div>
-       
-       
 </body>
+
 </html>
